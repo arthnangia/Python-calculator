@@ -8,7 +8,7 @@ def calc(a, b, op):
     """
     function to return the calculated value
     accepts 2 numbers as input [x & y] and returns
-    "X op Y = Z" as output where Z is operation done.
+    'X op Y = Z' as output where Z is operation done.
     """
 
     if op not in '+-/*':
@@ -28,8 +28,7 @@ def main():  # Wrapper function
 
     a = int(input('Please type the first number: '))
     b = int(input('Please type the second number: '))
-    op = input(
-        'What kind of operation would you like to do?\
+    op = input('What kind of operation would you like to do?\
         \nChoose between "+, -, *, /" : ')
 
     print(calc(a, b, op))
