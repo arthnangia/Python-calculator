@@ -1,4 +1,4 @@
-# Basis Calculator
+# Basic Calculator
 # Accept 2 numbers from user - x and y -
 # and an operator - op - and calculate the solution - z - according to the
 # type of the given operator.
