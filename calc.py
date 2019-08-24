@@ -6,8 +6,9 @@
 
 def calc(a, b, op):
     """
-    Returns a string like this: a op b = c
-    where c is the computed value according to the opeartor
+    function to return the calculated value
+    accepts 2 numbers as input [x & y] and returns
+    "X op Y = Z" as output where Z is operation done.
     """
 
     if op not in '+-/*':
